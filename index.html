@@ -51,7 +51,7 @@
     var name = document.getElementById('nameInput').value;
     var resultContainer = document.getElementById('result');
     
-    // Fetch moderation history from the JSON file
+    // Credit: GunnerTheCoder
     fetch('moderation_history.json')
       .then(response => response.json())
       .then(moderationHistory => {
